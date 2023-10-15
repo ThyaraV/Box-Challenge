@@ -20,16 +20,49 @@ body{
     margin: 2rem;
     overflow: hidden;
 }
-box1{
+.box1{
     background:hsl(31,77%,52%);
 }
-box2{
+.box2{
     background:hsl(184,100%,22%);
 }
-box3{
+.box3{
     background:hsl(179,100%,13%);
 }
 
 .box{
     padding: 40px;
+}
+.box h2{
+     font-family: 'Big Shoulders Display',
+     cursive;
+     text-transform: uppercase;
+     color:white;
+     font-size:30px;
+}
+
+.box p{
+    color:hsla(0%,100%, 0.75);
+    line-height: 1.6;
+}
+
+.box a{
+    text-decoration: none;
+    background-color: hsl(0, 0%, 95%);
+    padding: 13px 27px;
+    border-radius: 26px;
+    margin-top:60px;
+    display:inline-block;
+    border:2px solid hsl(0, 0%, 95%);
+
+}
+
+.box1 a{
+    color:hsl(31,77%,52%);
+}
+.box2 a{
+    color:hsl(184,100%,22%);
+}
+.box3 a{
+    color:hsl(179,100%,13%);
 }
