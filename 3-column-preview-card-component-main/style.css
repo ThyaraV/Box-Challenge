@@ -42,7 +42,7 @@ body{
 }
 
 .box p{
-    color:hsla(0%,100%, 0.75);
+    color:hsla(0,0%,100%, 0.75);
     line-height: 1.6;
 }
 
@@ -76,5 +76,11 @@ body{
 @media only screen and (max-width:768px){
     .wrapper{
         grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width:425){
+    .wrapper{
+        margin:2rem,5rem;
     }
 }
